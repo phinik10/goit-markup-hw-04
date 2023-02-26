@@ -195,6 +195,17 @@ ul {
     width: 264px;
 }
 
+.flex-item::before {
+    display: block;
+    content: "";
+    height: 112px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--light);
+    margin-bottom: 8px;
+}
+
 .flex-item:nth-child(4n) {
     margin-right: 0;
 }
