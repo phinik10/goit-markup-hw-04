@@ -310,6 +310,15 @@ ul {
     margin-left: 24px;
 }
 
+.customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.client-list {
+    display: flex;
+}
+
 .item-btn {
     padding: 12px 24px;
     font-family: "Roboto", sans-serif;
