@@ -198,24 +198,20 @@ ul {
 
 .icon {
     display: block;
-    content: "";
     max-width: 264px;
     height: 112px;
-    
-    background-repeat: no-repeat;
-    background-position: center;
     background-color: var(--light);
+    justify-content: center;
+    align-items: center;
     margin-bottom: 8px;
 }
 
-.icon-list {
-   
+.icon-list .use {
+   align-items: center;
 }
 
 .client {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    
 }
 
 .flex-item:nth-child(4n) {
