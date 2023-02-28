@@ -116,7 +116,7 @@ ul {
 .hero {
     background-image: linear-gradient(0deg, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
-    background-size: 1440px auto;
+    background-size: cover;
     background-position: center;
     text-align: center;
     max-width: 1440px;
@@ -188,11 +188,12 @@ ul {
 
 .flex-list {
     display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 
-.flex-item {
+.flex-item:not(:last-child) {
     margin-right: 24px;
-    width: 264px;
 }
 
 .icon {
@@ -200,13 +201,15 @@ ul {
     content: "";
     max-width: 264px;
     height: 112px;
-    background-size: contain;
+    
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--light);
     margin-bottom: 8px;
 }
-.icon-antenna {
+
+.icon-list {
+   
 }
 
 .client {
