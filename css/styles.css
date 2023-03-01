@@ -192,6 +192,7 @@ ul {
 }
 
 .flex-item {
+    display: block;
     width: 264px;
 }
 
@@ -200,7 +201,7 @@ ul {
 }
 
 .icon {
-    display: block;
+    display: flex;
     max-width: 264px;
     height: 112px;
     background-color: var(--light);
@@ -208,11 +209,6 @@ ul {
     align-items: center;
     margin-bottom: 8px;
 }
-
-.icon-list .use {
-   align-items: center;
-}
-
 
 
 .flex-item:nth-child(4n) {
