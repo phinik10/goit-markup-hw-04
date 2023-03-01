@@ -188,8 +188,11 @@ ul {
 
 .flex-list {
     display: flex;
-    gap: 24px;
     justify-content: center;
+}
+
+.flex-item {
+    width: 264px;
 }
 
 .flex-item:not(:last-child) {
