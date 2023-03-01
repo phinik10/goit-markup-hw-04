@@ -200,6 +200,10 @@ ul {
     margin-right: 24px;
 }
 
+.flex-item:nth-child(4n) {
+    margin-right: 0;
+}
+
 .icon {
     display: flex;
     max-width: 264px;
@@ -210,9 +214,39 @@ ul {
     margin-bottom: 8px;
 }
 
+.socials-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding: 0;
+}
 
-.flex-item:nth-child(4n) {
-    margin-right: 0;
+.socials-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-brend);
+}
+
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.socials-link:hover,
+.socials-link:focus{
+    background-color: var(--pressed-state);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.socials-icon {
+    width: 16px;
+    height: 16px;
+    fill: var(--white);
 }
 
 .portfolio {
