@@ -474,7 +474,6 @@ ul {
     border-bottom: 1px solid var(--accent);
     border-left: 1px solid var(--accent);
     border-right: 1px solid var(--accent);
-    border-top: none;
 }
 
 .service .link {
